@@ -1,0 +1,1 @@
+alert("Čus bus!")
