@@ -1,43 +1,37 @@
-function rekniAhoj() {
-    console.log("Čus");
-
+function ahoj() {
+    console.log("Ahoj");
+    console.log("Ahoj")
 }
 
-rekniAhoj();
-rekniAhoj();
+ahoj();
 
-let pozdrav = "Pozdrav!";
+let greeting = "Nazdárek";
 
-function ukazPozdrav() {
-    console.log(pozdrav)
+function showGreeting() {
+    console.log(greeting);
 }
 
-function testLocal() {
-    let localValue = 123;
-    console.log(localValue)
+showGreeting();
+
+function funkceUvnitr() {
+    let cislo = 123;
+    console.log(cislo);
 }
 
-ukazPozdrav();
-testLocal();
+funkceUvnitr();
 
+// Parametr a Argument
 
-
-
-if (true) {
-  var y = "var blok nerespektuje";
-}
-console.log(y);
-
-// Parametr & Argument
-
-function sayHello(name) { // name = parametr
+function test(name) {
     console.log("Ahoj " + name);
 }
 
-sayHello("Alice")
+test("Tomáš");
+test("Ema");
+test(123)
 
-function addNumber(num1, num2) {
-    console.log(num1 + num2);
+function scitani(num1, num2) {
+    console.log(num1 + num2)
 }
 
-addNumber(5,8);
+scitani(4,6)
