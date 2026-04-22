@@ -32,6 +32,8 @@ test(123)
 
 function scitani(num1, num2) {
     console.log(num1 + num2)
+    
 }
 
-scitani(4,6)
+
+scitani(6,7)

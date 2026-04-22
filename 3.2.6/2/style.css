@@ -11,3 +11,25 @@ a:hover {
 a:active {
     color: brown;
 }
+
+input[type="email"] {
+    border: 2px solid gray;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+input[type="email"]:focus {
+    border-color: green;
+    background-color: #ccf4cc;
+}
+
+input[type="email"]:invalid {
+    border-color: red;
+    background-color: hsl(7, 21%, 50%);
+}
+
+input[type="email"]:valid {
+    border-color: green;
+    background-color: hwb(110 20% 13%);
+}
