@@ -37,3 +37,7 @@ function scitani(num1, num2) {
 
 
 scitani(6,7)
+
+function vypisCisla(zacatek, konec) {
+    for (let i = zacatek;)
+}
