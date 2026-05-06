@@ -1,37 +1,35 @@
 input[type="checkbox"]:checked + span {
-    text-decoration: line-through;
     color: gray;
+    text-decoration: line-through;
 }
 
 li:first-child {
-    border: 2px solid black;
+    border: 2px solid #0fd662;
 }
-li:last-child {
-    border: 2px solid black;
-}
-li:nth-child(5) {
-    background-color: yellow;
-}
-li:nth-child(even) {
-    background-color: aqua;
-}
-.btn-demo {
-    border: none;
-    padding: 12px 20px;
-    border-radius: 10px;
-    background-color: #2563eb;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
 
-    transition:     background-color 250ms ease-in-out,
-                    transform 250ms ease,
-                    box-shadow 250ms ease;
+li:last-child {
+    border: 2px solid #a72727;
+}
+
+li:nth-child(5) {
+    background-color: blue;
+}
+
+.btn-demo {
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+
 
 }
 
 .btn-demo:hover {
-    background-color: #b3bcbc;
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(37, 99, 235, .25)
+     background-color: #1d4ed8;
+    transform:translateY(-2px) ;
 }
+
+
