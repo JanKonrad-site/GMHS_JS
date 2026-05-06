@@ -24,12 +24,16 @@ li:nth-child(5) {
   font-weight: bold;
   cursor: pointer;
 
+  transition:   background-color 250ms,
+                transform 250ms;
+            
+
 
 }
 
 .btn-demo:hover {
-     background-color: #1d4ed8;
-    transform:translateY(-2px) ;
+    background-color: hsl(222, 8%, 25%);
+    transform:translateY(-2px);
 }
 
 
